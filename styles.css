@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("images/background.jpg");
+}
+
+main {
+  /* padding: 4rem; */
+  width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+main,
+div {
+  padding: 0.5em;
+}
+.form {
+  text-align: center;
+  padding: 2rem;
+  background-color: hsl(246, 25%, 77%);
+  border-radius: 10px;
+  box-shadow: 2px 6px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.topbtn {
+  background-color: hsl(248, 32%, 49%);
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 2px 6px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.pst {
+  padding: 0.8em;
+}
+.h2 {
+  padding-bottom: 10px;
+}
+
+/* .Accent{
+    color: hsl(248, 32%, 49%);
+} */
+.claim {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+.lt {
+  color: white;
+  font-size: 16px;
+  /* display: flexbox; */
+  /* padding-bottom: 10px; */
+}
+.lt,
+h2,
+h1 {
+  padding-bottom: 10px;
+}
+.lt,
+p {
+  padding-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="password"],
+button[class="claim"] {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  html {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* For desktop: */
+  html {
+    width: 100%;
+  }
+}
